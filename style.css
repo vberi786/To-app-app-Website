@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ace0aa;
+}
+
+.toolbox-cont{
+    height: 5rem;
+    background-color:rgba(62, 56, 233, 0.94);
+    display: flex;
+    align-items: center;
+    position:fixed;
+    width: 100vw;
+    top:0px
+}
+
+.toolbox-priority-cont{
+    height: 3rem;
+    background-color: #EEEDDE;
+    width: 18rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.action-btn-cont{
+    background-color: #EEEDDE;
+    height: 3rem;
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.lightpink{
+    background-color:lightpink;
+    border-radius: 20px;
+}
+
+.blue{
+    background-color:lightblue;
+    border-radius: 20px;
+}
+
+.green{
+    background-color:lightgreen;
+    border-radius: 20px;
+}
+.black{
+    background-color:black;
+    border-radius: 20px;
+}
+
+.add-btn{
+    font-size: 1.5rem;
+}
+
+.remove-btn{
+    font-size: 1.5rem;
+}
+
+.modal-cont{
+    position: absolute;
+    left: 25vw;
+    top:25vh;
+    background-color: #EEEDDE;
+    height: 50vh;
+    width: 50vw;
+    display: none;
+}
+
+.textarea-cont{
+    outline:none;
+    resize: none;
+    border:none;
+    background-color:#EEF3D2;
+    height: 100%;
+    width: 75%;
+    font-size: 2rem;
+    padding: 2rem;
+    border-right: 2px solid #F56D91;
+    padding: 10px 20px;
+    border-radius: 25px;
+    
+}
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+.active{
+    border: 5px solid #E0DDAA;
+}
+
+.main-cont{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    margin-bottom: 2rem;
+}
+
+.ticket-cont{
+    background-color: #EEEDDE;
+    height: 10rem;
+    width: 16rem;
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    background-color: #EEEDDE;
+    font-weight: 600;
+    font-size: .9rem;
+    color: #141E27;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.task-area{
+    height: 5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 1.25rem;
+    overflow: auto;
+    outline: none;
+    word-break: break-all;
+}
+
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-left: 14.5rem;
+}
